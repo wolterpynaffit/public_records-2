@@ -5,6 +5,12 @@ module.exports = {
     './_*/**/*.{html,md,js}',
     '!./_site/**/*.{html,md,js}',
     './*.{html,md,js}'
+
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
   ],
   theme: {
     extend: {},
